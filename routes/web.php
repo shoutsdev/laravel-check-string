@@ -3,6 +3,6 @@
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('laravel-check', [UserController::class, 'index']);
+Route::get('laravel-camel', [UserController::class, 'index']);
 
 

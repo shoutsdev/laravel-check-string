@@ -14,9 +14,9 @@ class UserController extends Controller
      */
     public function index(Request $request)
     {
-        $string = "Hello, Hardik";
-        $result = Str::startsWith($string, 'Hello');
+        $string = "hello_world";
+        $newString = Str::camel($string);
 
-        dd($result);
+        dd($newString);
     }
 }
